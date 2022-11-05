@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": ""
+    "dev": "nodemon --exec babel-node server",
+    "migrate": "npx prisma migrate dev"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,17 @@
   "bugs": {
     "url": "https://github.com/Mohsen37/instagram-backend/issues"
   },
-  "homepage": "https://github.com/Mohsen37/instagram-backend#readme"
+  "homepage": "https://github.com/Mohsen37/instagram-backend#readme",
+  "dependencies": {
+    "@prisma/client": "^4.5.0",
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20",
+    "prisma": "^4.5.0"
+  }
 }
