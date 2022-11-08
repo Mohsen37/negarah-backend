@@ -1,10 +1,22 @@
 require("dotenv").config();
 import { ApolloServer } from "apollo-server";
-import schema from "./schema";
+import { typeDefs, resolvers } from "./schema";
+import { getUser, protectedResolver } from "./users/users.utility";
 
-const server = new ApolloServer({ schema });
+const server = new ApolloServer({
+  typeDefs,
+  resolvers,
+  context: async ({ req }) => {
+    return {
+      loggedInUser: await getUser(req.headers.authorization),
+      protectedResolver,
+    };
+  },
+});
 server
   .listen()
   .then(() =>
-    console.log(`🥳 Srever is Runnubg in http://localhost:${process.env.PORT}`)
+    console.log(
+      `--------> ✳ Srever is Running in http://localhost:${process.env.PORT} ✅`
+    )
   );

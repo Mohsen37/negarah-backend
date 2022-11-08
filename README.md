@@ -6,8 +6,20 @@ instagram Clone Backend
 
 - [x] Create Account
 - [x] See Profile
-- [ ] Login
+- [x] Login
 - [ ] Edit Profile
+- [ ] Change Avatar(Image Upload)
 - [ ] Follow User
 - [ ] Unfollow User
-- [ ] Change Avatar(Image Upload)
+- [ ] Search User
+- [ ] see Followers
+- [ ] see Following
+
+## Photos
+
+- [ ] See Photo
+- [ ] Upload Photo
+- [ ] Edit Photo
+- [ ] Like / Unlike Photo
+- [ ] See Photo Liks
+- [ ] See Photo
