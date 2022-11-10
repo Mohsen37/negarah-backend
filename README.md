@@ -7,13 +7,13 @@ instagram Clone Backend
 - [x] Create Account
 - [x] See Profile
 - [x] Login
-- [ ] Edit Profile
-- [ ] Change Avatar(Image Upload)
-- [ ] Follow User
-- [ ] Unfollow User
-- [ ] Search User
+- [x] Edit Profile
+- [x] Change Avatar(Image Upload)
+- [x] Follow User
+- [x] Unfollow User
 - [ ] see Followers
 - [ ] see Following
+- [ ] Search User
 
 ## Photos
 
@@ -22,4 +22,12 @@ instagram Clone Backend
 - [ ] Edit Photo
 - [ ] Like / Unlike Photo
 - [ ] See Photo Liks
-- [ ] See Photo
+- [ ] See Feed
+- [ ] Search Photos
+- [ ] See Hashtags
+
+## Comments
+
+- [ ] Comment on Photo
+- [ ] Edit Comment
+- [ ] Delete Comment
