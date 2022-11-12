@@ -11,20 +11,21 @@ instagram Clone Backend
 - [x] Change Avatar(Image Upload)
 - [x] Follow User
 - [x] Unfollow User
-- [ ] see Followers
-- [ ] see Following
-- [ ] Search User
+- [x] see Followers(offset pagination)/Following
+- [x] see Followers/Following(cursor pagination)
+- [x] Computed Fields
+- [x] Search User
 
 ## Photos
 
-- [ ] See Photo
-- [ ] Upload Photo
-- [ ] Edit Photo
-- [ ] Like / Unlike Photo
-- [ ] See Photo Liks
-- [ ] See Feed
-- [ ] Search Photos
-- [ ] See Hashtags
+- [x] See Photo
+- [x] Upload Photo
+- [x] Edit Photo
+- [x] Like / Unlike Photo
+- [x] See Photo Liks
+- [x] See Feed
+- [x] Search Photos
+- [x] See Hashtags
 
 ## Comments
 
