@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Mohsen37/instagram-backend#readme",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.210.0",
     "@graphql-tools/load-files": "^6.6.1",
     "@graphql-tools/merge": "^8.3.11",
     "@prisma/client": "^2.15.0",
