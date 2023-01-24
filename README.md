@@ -25,11 +25,11 @@ instagram Clone Backend
 - [x] See Photo Liks
 - [x] See Feed
 - [x] Search Photos
-- [ ] see Photo Comments
+- [x] see Photo Comments
 - [x] See Hashtags
 
 ## Comments
 
-- [ ] Comment on Photo
-- [ ] Edit Comment
-- [ ] Delete Comment
+- [x] Comment on Photo
+- [x] Edit Comment
+- [x] Delete Comment
